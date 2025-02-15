@@ -2,10 +2,11 @@
 
 Testing local LLMs using [Ollama](https://github.com/ollama/ollama) via Docker container using the [LangChain](https://python.langchain.com/) framework library and using the [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) model.
 
-### Scripts:
+## Scripts:
 
-- **rag_webbase.py**
+### rag_webbase.py
 Demonstrates RAG (Retrieval-Augmented Generation) which uses a [blog post](https://lilianweng.github.io/posts/2023-06-23-agent/) by Lilian Weng on agents as an example.
+
 **Question:**
 What are the approaches to Task Decomposition?
 **Answer:**
