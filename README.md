@@ -6,6 +6,16 @@ Testing local LLMs using [Ollama](https://github.com/ollama/ollama) via Docker c
 
 - **rag_webbase.py**
 Demonstrates RAG (Retrieval-Augmented Generation) which uses a [blog post](https://lilianweng.github.io/posts/2023-06-23-agent/) by Lilian Weng on agents as an example.
+**Question:**
+What are the approaches to Task Decomposition?
+**Answer:**
+The summary outlines three core themes related to task decomposition using an LLM-powered autonomous agent system:
+
+1. **Task Decomposition via LLMs**: The use of large language models (LLMs) with specific instructions or prompting to break down tasks into manageable steps or subgoals, such as generating prompts for outlining processes like writing a story.
+
+2. **Autonomous Agent Planning and Memory Utilization**: Autonomous agents employ planning mechanisms and memory to efficiently handle complex tasks by decomposing them into smaller subtasks, enabling better organization and execution of multi-step processes.
+
+3. **Reflective Learning in Autonomous Systems**: Incorporation of reflective processes within autonomous systems allows agents to critically evaluate past actions, learn from mistakes, and refine future strategies, enhancing overall performance and outcome quality.
 
 ### Requirements
 
