@@ -1,0 +1,12 @@
+# Run container setting a volume pointing to Scripts directory for developing/testing scripts
+docker run -d --gpus=all -v ollama:/root/.ollama -v "C:\Users\molnara\Documents\LLM Dev\Scripts":/Scripts -p 11434:11434 --name llmdev-main llmdev:latest
+
+# Pull some models
+docker exec -it llmdev-main ollama pull nomic-embed-text
+docker exec -it llmdev-main ollama pull deepseek-r1
+
+# Run the conatiner using chosen model
+docker exec -it llmdev-main ollama run deepseek-r1
+
+# Execute python scripts, located in /Scripts folder
+docker exec -it llmdev-main bash
