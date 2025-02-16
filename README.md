@@ -21,6 +21,27 @@ The summary outlines three core themes related to task decomposition using an LL
 
 3. **Reflective Learning in Autonomous Systems**: Incorporation of reflective processes within autonomous systems allows agents to critically evaluate past actions, learn from mistakes, and refine future strategies, enhancing overall performance and outcome quality.
 
+### rag_pdf.py
+Demonstrates RAG (Retrieval-Augmented Generation) which uses a PDF of [Nike's annual public SEC report](https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf)
+
+**Question:**
+
+What was Nike's revenue in 2023?
+
+**Answer:**
+
+FISCAL 2023 NIKE BRAND REVENUE HIGHLIGHTS
+The following tables present NIKE Brand revenues disaggregated by reportable operating segment, distribution channel and
+major product line:
+FISCAL 2023 COMPARED TO FISCAL 2022
+• NIKE, Inc. Revenues were $51.2 billion in fiscal 2023, which increased 10% and 16% compared to fiscal 2022 on a reported
+and currency-neutral basis, respectively. The increase was due to higher revenues in North America, Europe, Middle East &
+Africa ("EMEA"), APLA and Greater China, which contributed approximately 7, 6, 2 and 1 percentage points to NIKE, Inc.
+Revenues, respectively.
+• NIKE Brand revenues, which represented over 90% of NIKE, Inc. Revenues, increased 10% and 16% on a reported and
+currency-neutral basis, respectively. This increase was primarily due to higher revenues in Men's, the Jordan Brand,
+Women's and Kids' which grew 17%, 35%,11% and 10%, respectively, on a wholesale equivalent basis.
+
 ### Requirements
 
 - Docker for Windows
