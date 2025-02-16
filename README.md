@@ -63,3 +63,4 @@ Women's and Kids' which grew 17%, 35%,11% and 10%, respectively, on a wholesale 
 
 ### Resources
 - [Build a Local RAG Application](https://python.langchain.com/v0.2/docs/tutorials/local_rag/)
+- [Build a PDF ingestion and Question/Answering system](https://python.langchain.com/v0.2/docs/tutorials/pdf_qa/)
